@@ -11,8 +11,3 @@ A Python voice assistant with GUI, wake word detection, AI question answering, m
 - News headlines via News API
 - Music playing via browser links
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-python jarvis_gui.py
