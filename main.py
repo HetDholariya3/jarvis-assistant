@@ -100,7 +100,7 @@ def listen_for_wakeword(log_func, stop_event):
                 speak("Yes, how can I help?")
                 log_func("Listening for command...")
                 with sr.Microphone() as source:
-                    audio = recognizer.listen(source, timeout=5)
+                    audio = recognizer.listen(source, timeout=10)
                 command = recognizer.recognize_google(audio).lower()
                 log_func(f"Command: {command}")
                 
